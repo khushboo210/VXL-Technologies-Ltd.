@@ -1,0 +1,254 @@
+@charset "utf-8";
+body{
+ font-family: 'Anton', sans-serif;
+}
+*{
+ padding:0px;
+ margin:0px;
+}
+#nav1{
+ width:100%;
+ height: 70px;
+ line-height: 70px;
+ background: #23292b;
+}
+#nav1 h1{
+ float:left;
+ font-size:2.5em;
+ marginleft:15px;
+}
+#nav1 h1 a{
+ text-decoration:none;
+ color:white;
+}
+#nav1 ul{
+ float:right;
+ margin-right:15px;
+}
+#nav1 ul li{
+ display:inline-block;
+ list-style-type:none;
+}
+#nav1 ul li a{
+ text-decoration:none;
+ color:white;
+ padding:25px;
+}
+#nav1 ul li:hover{
+ background:#64757b;
+ transition:all ease-in-out 0.45s;
+}
+#active{
+ background:#64757b;
+}
+#main-content{
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ background: url("images/4.jpg") no-repeat;
+ background-size:cover;
+ text-align:center;
+ color:white;
+ line-height:40px;
+ width:100%;
+ height:550px;
+}
+#service{
+ font-family: 'Signika', sans-serif;
+ text-align:center;
+ color:#bfc7ca;
+ line-height:60px;
+ width:170px;
+ height:60px;
+ margin-left:auto;
+ margin-right:auto;
+ font-weight:100;
+ border-radius:5px;
+ background:#64757b;
+ 
+}
+#service:hover{
+ box-shadow:1px 5px 2px 2px rgba(255,255,255, 0.3);
+ transition:all ease-in-out 0.45s;
+}
+#service a{
+ color:white;
+ text-decoration:none;
+ padding:5px;
+}
+#footer{
+ font-family: 'Raleway', sans-serif;
+ width:100%;
+ height:150px;
+ background: #101517;
+ line-height:150px;
+}
+#footer h4{
+ color:#bfc7ca;
+ float:right;
+ margin-right:20px;
+ font-weight:200; 
+ font-size:23px;
+}
+#nav2 ul{
+ float:left;
+ margin-left:20px;
+}
+#nav2 ul li{
+ display:inline-block;
+ list-style-type:none;
+}
+#nav2 ul li a{
+ text-decoration:none;
+ color:white;
+ padding:10px;
+}
+#icon{
+ font-size:35px;
+}
+#icon2{
+ font-size:35px;
+}
+#icon3{
+ font-size:35px;
+}
+#icon4{
+ font-size:35px;
+}
+#icon:hover{
+ color: #245569;
+ transition:all ease-in-out 0.40s;
+}
+#icon2:hover{
+ color: #5da9c7;
+ transition:all ease-in-out 0.40s;
+}
+#icon3:hover{
+ color:#ff1a1a;
+ transition:all ease-in-out 0.40s;
+}
+#icon4:hover{
+ color:#0040ff;
+ transition:all ease-in-out 0.40s;
+}
+#child{
+ font-family: 'Raleway', sans-serif;
+ background: url("images/8.jpg") no-repeat;
+ width:85%;
+ height:300px;
+ margin-left:auto;
+ margin-right:auto;
+}
+#child h3{
+ color:white;
+ background:black;
+ width:500px;
+ height:40px;
+ line-height:40px;
+ text-align:center;
+ margin-left:50px;
+ font-weight:lighter;
+}
+#child2 img{
+ font-family: 'Raleway', sans-serif;
+ width:400px;
+ height:400px;
+ margin-left:101px;
+}
+#text2{
+ font-family: 'Raleway', sans-serif;
+ float:right;
+ width:500px;
+ margin-right:50px;
+ 
+}
+#child3 img{
+ font-family: 'Raleway', sans-serif;
+ width:400px;
+ height:400px;
+ margin-left:101px;
+}
+#text3{
+ font-family: 'Raleway', sans-serif;
+ float:right;
+ width:500px;
+ margin-right:50px;
+}
+#child4 img{
+ font-family: 'Raleway', sans-serif;
+ width:400px;
+ height:400px;
+ margin-left:101px;
+}
+#text4{
+ font-family: 'Raleway', sans-serif;
+ float:right;
+ width:500px;
+ margin-right:50px;
+}
+#child5 img{
+ font-family: 'Raleway', sans-serif;
+ width:400px;
+ height:400px;
+ margin-left:101px;
+}
+#text5{
+ font-family: 'Raleway', sans-serif;
+ float:right;
+ width:500px;
+ margin-right:50px;
+}
+#mainform{
+ width:100%;
+ height:500px;
+}
+#form{
+ font-family: 'Signika', sans-serif;
+ background: url("images/13.jpg");
+ width:50%;
+ height:500px;
+ color:white;
+ line-height:35px;
+ float:left;
+}
+form{
+ margin-left:100px;
+}
+#name{
+ width:300px;
+ height:30px;
+ padding:6px;
+ border-radius:5px;
+ border:1px solid #CCC;
+}
+#req{
+ width:300px;
+ height:150px;
+ border-radius:5px;
+ padding:7px; 
+}
+#sub{
+ width:150px;
+ background:#000f1a;
+ height:50px;
+ border:0px;
+ color:white;
+ font-size:18px;
+}
+#extra{
+ font-family: 'Raleway', sans-serif;
+ width:50%;
+ float:right;
+ text-align:center;
+ line-height:30px;
+}
+#about{
+ font-family: 'Raleway', sans-serif;
+ width:1000px;
+ margin-left:auto;
+ margin-right:auto;
+}
+#about img{
+ width:1000px;
+ margin-left:auto;
+ margin-right:auto;
+ border-radius:5px;
+}
